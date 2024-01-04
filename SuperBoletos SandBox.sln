@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperBoletos SandBox.Api", "Api\SuperBoletos SandBox.Api.csproj", "{1310C417-1EFD-452A-92F0-8B4554E8DDD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoyalSense.Api.Tests", "Tests\LoyalSense.Api.Tests.csproj", "{83A0EF0B-6499-4C3A-B911-E3DCDBD61DA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9D6EA779-3F95-401D-9A1E-CD98901B8F2B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1310C417-1EFD-452A-92F0-8B4554E8DDD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1310C417-1EFD-452A-92F0-8B4554E8DDD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1310C417-1EFD-452A-92F0-8B4554E8DDD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1310C417-1EFD-452A-92F0-8B4554E8DDD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A0EF0B-6499-4C3A-B911-E3DCDBD61DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A0EF0B-6499-4C3A-B911-E3DCDBD61DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A0EF0B-6499-4C3A-B911-E3DCDBD61DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A0EF0B-6499-4C3A-B911-E3DCDBD61DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {536A323B-1F3A-40B2-A7C3-40B6B46C5845}
+	EndGlobalSection
+EndGlobal
